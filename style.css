@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
 }
@@ -345,4 +346,352 @@ img{
     background-color: #3b2a21;
     color: #f6e1ca;
     border: 2px solid #f6e1ca;
+=======
+*{
+    margin: 0;
+}
+
+#AI{
+    height: 3rem;
+    width: 10rem;
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-style: italic;
+    background-color: #3b2a21;
+}
+
+
+.navbar{
+    height: 3.5rem;
+    width: 100%;
+    background-color: #3b2a21;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.bg{
+    height: 46rem;
+    background-image: url("hero\ image.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bgcontainer{
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.heading{
+    height: 15rem;
+    width: 40rem;
+    font-size: 1.8rem;
+    justify-items: center;
+    color: #3b2a21;
+    font-family: Times, serif;
+    font-weight: 100;
+
+}
+
+#page1P{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: #3b2a21;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#button1{
+    height: 3rem;
+    width: 10rem;
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+    background-color: #3b2a21;
+}
+
+.about{
+    height: 46rem;
+    width: 100%;
+    background-color: #f6e1ca;
+}
+.box_About{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+.boxcontainer{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+}
+.hbox{
+    width: 30rem;
+    text-transform: uppercase;
+    color: #3b2a21;
+    font-family: Times, serif;
+    padding-bottom: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+#Pbox{
+    width: 33rem;
+    height: 20rem;
+    font-size: 1.5rem;
+}
+
+#button2{
+    height: 3rem;
+    width: 10rem;
+    background-color: #f6e1ca;
+    color: #3b2a21;
+    border: 2px solid #3b2a21;
+}
+.imgcontainer{
+    width: 50rem;
+    height: 46rem;
+    background-image: url("image\ 1.png");
+    background-size: cover;
+
+}
+
+.page3{
+    height: 46rem;
+    width: 100%;
+    background-color: #3b2a21;
+    display: flex;
+    flex-direction: row;
+    color: #f6f3ee;
+    justify-content: space-around;
+
+}
+.page3H{
+    padding: 4rem;
+    height: 30rem;
+    width: 40rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.page3IMG{
+    background-image: url("food\ plate\ .png");
+    background-size: contain;
+    width: 35rem;
+    height: 35rem;
+    margin: 1rem;
+
+}
+.boxpage3{
+    margin-right: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page3P{
+    padding-top: 2rem;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.page4{
+    height: 46rem;
+    width: 100%;
+    background-color: #f0e8e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page4H{
+    margin-top: 4rem;
+    height: 4rem;
+    width: 20rem;
+    color: #3b2a21;
+    font-size: 2rem;
+}
+.box{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 15rem;
+    
+}
+
+img{
+    height: 20rem;
+    width: 15rem;
+    background-image: url("div1.png");
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 15rem;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 15rem;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 15rem;
+}
+
+.page4p{
+    font-size: 1rem;
+    font-style: italic;
+    color: #3b2a21;
+}
+.page5{
+    height: 46rem;
+    width: 100%;
+    background-color: #f2efe9;
+}
+.page5_heading{
+    padding: 3rem;
+    height: 5rem;
+    width: 30rem;
+    font-size: 1.8rem;
+    justify-items: center;
+    color: #3b2a21;
+    font-family: Times, serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.page5_container{
+    height: 10rem;
+    width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.div1{
+    height: 8rem;
+    width: 20rem;
+}
+.div2{
+    height: 8rem;
+    width: 20rem;
+}
+
+.page5_con{
+    width: 20rem;
+    margin-left: 35rem;
+    margin-top: 3rem;
+}
+
+.page6{
+    height: 46rem;
+    width: 100%;
+    background-color: #3b2a21;
+    display: flex;
+    flex-direction: row;
+    color: #f6f3ee;
+    justify-content: space-around;
+}
+
+.page_footer{
+    margin-top: 22rem;
+    height: 20rem;
+    width: 90%;
+    border: 2px solid #f0e8e2;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pagefoot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    width: 30rem;
+}
+.pagefoot1 h2{
+    font-size: 3rem;
+    font-weight: large;
+}
+.pagefoot1 p{
+    text-transform: uppercase;
+    margin-top: 4rem;
+}
+
+
+.pagefoot2{
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pagefoot2 p{
+    margin: 0.5rem;
+}
+
+.pagefoot2 button{
+    height: 3rem;
+    width: 10rem;
+    background-color: #3b2a21;
+    color: #f6e1ca;
+    border: 2px solid #f6e1ca;
+>>>>>>> cdd5466777a5a379a079371792217ae34834a204
 }
