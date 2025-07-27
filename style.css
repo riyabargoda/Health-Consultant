@@ -658,7 +658,7 @@ img{
     background-color: #f3ede7;
     border: 2px solid #3a2a1a;
     overflow: hidden;
-    user-select: none;
+    /* user-select: none; */
     transition: bottom 0.3s ease;
     font-weight: 600;
 }
