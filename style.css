@@ -1,18 +1,172 @@
-
 *{
     margin: 0;
 }
 
-#AI{
+button {
+    cursor: pointer;
+}
+button:hover{
+    background-color: #5a3d28f1;
+}
+.login_page{
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/hero\ image.png");
+    background-size: cover;
+}
+.login_container_close{
+    height: 30rem;
+    width: 30rem;
+    border: 3px solid #3b2a21;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ffe1c25d;
+    justify-content: space-between;
+    padding: 0.5rem;
+    
+}
+.close-login-btn{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-color: #3b2a21;
+    color: white;
+    
+}
+.login_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.login_container h2{
+    height: 3rem;
+    color: #3b2a21;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.login_container input{
+    height: 2rem;
+    width: 15rem;
+    background-color: #f0e8e2;
+    margin: 1rem;
+    border:2px solid #3b2a21 ;
+    border-radius: 1rem;
+    padding: 5px;
+    font-style: italic; 
+}
+
+.LOGIN-btn{
     height: 3rem;
     width: 10rem;
     color: white;
-    border-radius: 50%;
     font-size: 1rem;
     font-style: italic;
     background-color: #3b2a21;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.login_container a{
+    color: #3b2a21;
+    text-decoration: underline;
 }
 
+.login_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_details i{
+    font-size: 1rem;
+
+}
+
+.sign_In{
+    display: none;
+}
+
+
+.signIn_page{
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/hero\ image.png");
+    background-size: cover;
+}
+.signIn_container_close{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-color: #3b2a21;
+    color: white;
+}
+.close-sign-btn{
+    height: 30rem;
+    width: 30rem;
+    border: 3px solid #3b2a21;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ffe1c25d;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.SIGN_IN_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+.SIGN_IN_container h2{
+    height: 3rem;
+    color: #3b2a21;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+.SIGN_IN_container p{
+    margin-bottom: 2rem;
+}
+.sign_details{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.sign_details input{
+    height: 1.5rem;
+    width: 15rem;
+    background-color: #f0e8e2;
+    margin: 3px; 
+    border:2px solid #3b2a21 ;
+    border-radius: 1rem;
+    padding: 5px;
+    font-style: italic; 
+
+}
+.login {
+    display: none;
+}
+
+.login.active {
+    display: block;
+}
 
 .navbar{
     height: 3.5rem;
@@ -21,12 +175,12 @@
     align-items: center;
     justify-content: center;
     position: fixed;
+    
 }
 .nav_container{
     display: flex;
     justify-content: space-evenly;
     padding-top: 1rem;
-
 }
 a{
     text-decoration: none;
@@ -40,7 +194,6 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .bgcontainer{
@@ -56,7 +209,7 @@ a{
 .heading{
     height: 15rem;
     width: 40rem;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     justify-items: center;
     color: #3b2a21;
     font-family: Times, serif;
@@ -68,7 +221,7 @@ a{
     padding-top: 4rem;
     padding-bottom: 2rem;
     color: #3b2a21;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-style: italic;
 }
 
@@ -81,6 +234,9 @@ a{
     background-color: #3b2a21;
 }
 
+#button1:hover{
+    background-color: #5a3d28;
+}
 .about{
     height: 46rem;
     width: 100%;
@@ -122,6 +278,9 @@ a{
     background-color: #f6e1ca;
     color: #3b2a21;
     border: 2px solid #3b2a21;
+}
+#button2:hover{
+    background-color: #5a3d2877;
 }
 .imgcontainer{
     width: 50rem;
@@ -248,6 +407,7 @@ img{
     font-size: 1rem;
     font-style: italic;
     color: #3b2a21;
+    margin-bottom: 1rem;
 }
 .page5{
     height: 46rem;
@@ -280,6 +440,14 @@ img{
     width: 20rem;
 }
 .div2{
+    height: 8rem;
+    width: 20rem;
+}
+.div3{
+    height: 8rem;
+    width: 20rem;
+}
+.div4{
     height: 8rem;
     width: 20rem;
 }
@@ -340,6 +508,15 @@ img{
     margin: 0.5rem;
 }
 
+#social_media_icon{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+
+}   
+
 .pagefoot2 button{
     height: 3rem;
     width: 10rem;
@@ -347,3 +524,312 @@ img{
     color: #f6e1ca;
     border: 2px solid #f6e1ca;
 }
+#button3:hover{
+    background-color: #5a3d28;
+}
+
+.consult{
+    height: 46rem;
+    width: 100%;
+    background-color: #f6e1ca;
+    
+}
+
+.consult_container{
+    height: 46rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.consult_container h2{
+    height: 3rem;
+    color: #3b2a21;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-family: Times, serif;
+    font-style: italic;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+.consult_details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+    height: 30rem;
+    padding: 1rem;
+}
+.consult_headers{
+    height: 46rem;
+    width: 15rem;
+}
+.consult_headers h4{
+    height: 2.5rem;
+    margin: 0.5rem;
+    display: flex;
+    font-size: 1.5rem;
+    color: #3a2a1a;
+}
+
+.consultForm input{
+    height: 1.2rem;
+    width: 25rem;
+    background-color: #f0e8e2;
+    margin: 8px;
+    border:2px solid #3b2a21 ;
+    border-radius: 1rem;
+    padding: 5px;
+}
+.consultForm textarea{
+    height: 5rem;
+    width: 25rem;
+    background-color: #f0e8e2;
+    margin: 8px;
+    border:2px solid #3b2a21 ;
+    border-radius: 1rem;
+    padding: 5px;
+}
+.consult_container button{
+    height: 3rem;
+    width: 10rem;
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+    background-color: #3b2a21;
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+.consult_container button:hover {
+    background-color: #5a3d28f1;
+}
+
+.consult {
+    display: none;
+}
+.consult.active {
+    display: block;
+}
+
+/* Chatbot Button */
+.chatbot-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #3b2a21;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    z-index: 2000;
+    border: none;
+    transition: 0.2s;
+}
+.chatbot-btn.hide {
+    display: none;
+}
+.chatbot-btn:hover {
+    background-color: #5a3d28f1;
+}
+
+.chatbot-btn i {
+    font-size: 1.3rem;
+}
+ 
+/* Chat widget container */
+#chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 320px;
+    max-height: 480px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    font-size: 15px;
+    color: #3a2a1a;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3ede7;
+    border: 2px solid #3a2a1a;
+    overflow: hidden;
+    user-select: none;
+    transition: bottom 0.3s ease;
+    font-weight: 600;
+}
+
+/* Header of chat */
+#chat-header {
+    background-color: #3a2a1a;
+    color: #f3ede7;
+    padding: 14px 16px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#chat-header svg {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    fill: #f3ede7;
+}
+
+#chat-header button {
+    margin-left: auto;
+    background: transparent;
+    border: 2px solid #f3ede7;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    color: #f3ede7;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#chat-header button:hover {
+    background: #f3ede7;
+    color: #3a2a1a;
+    border-color: #3a2a1a;
+    transition: 0.2s ease;
+}
+
+/* Chat messages area */
+#chat-messages {
+    flex: 1;
+    padding: 12px 16px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #f3ede7;
+}
+/* User messages bubble */
+.message.user {
+    align-self: flex-end;
+    background-color: #3a2a1a;
+    color: #f3ede7;
+    border-radius: 16px;
+    padding: 8px 20px;
+    max-width: 75%;
+    font-weight: 600;
+    /* user-select: text; */
+}
+
+/* Bot messages bubble */
+.message.bot {
+    align-self: flex-start;
+    background-color: #fbdba8;
+    color: #3a2a1a;
+    border-radius: 16px;
+    padding: 10px 16px;
+    max-width: 75%;
+    font-weight: 600;
+    /* user-select: text; */
+}
+
+/* Input area container */
+#chat-input-area {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 8px;
+    border-top: 1px solid #3a2a1a;
+    background-color: #f3ede7;
+}
+
+/* Input field */
+#chat-input {
+    flex-grow: 1;
+    border: 1.5px solid #3a2a1a;
+    border-radius: 20px;
+    height: 42px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+    padding: 0 14px;
+    font-size: 14px;
+    color: #3a2a1a;
+    outline-offset: 2px;
+    outline-color: transparent;
+    transition: outline-color 0.2s ease;
+}
+
+#chat-input::placeholder {
+    color: #907d6c;
+    font-weight: 600;
+}
+
+#chat-input:focus {
+    outline-color: #3a2a1a;
+}
+
+/* Send button */
+#chat-send-btn {
+    background-color: #3a2a1a;
+    color: #f3ede7;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* user-select: none; */
+    transition: background-color 0.2s ease;
+}
+
+#chat-send-btn:hover:not(:disabled) {
+    background-color: #5a4432;
+}
+
+#chat-send-btn:disabled {
+    background-color: #b5a18c;
+    cursor: not-allowed;
+}
+
+/* Floating chat open button */
+#chat-floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 54px;
+    height: 54px;
+    background-color: #3a2a1a;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    z-index: 1000;
+    /* user-select: none; */
+    transition: background-color 0.2s ease;
+    font-size: 24px;
+    color: #f3ede7;
+}
+
+#chat-floating-btn:hover {
+    background-color: #5a4432;
+}
+
+/* Hide chat widget initially */
+#chat-widget.hidden {
+    display: none;
+}
+
