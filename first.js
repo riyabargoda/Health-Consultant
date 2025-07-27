@@ -121,6 +121,14 @@ function getBotResponse(userMsg) {
     return 'You\'re welcome! Have a nice day!';
   }else if(msg.includes('how are you')){
     return 'I\'m just a bot, but thanks for asking! How can I assist you?';
+  }else if(msg.includes('i have fever') || msg.includes('fever')) {
+    return 'A fever is an elevated body temperature, often a sign that your body is fighting off an infection. Most fevers resolve on their own within a few days, but its important to monitor your temperature and seek medical advice if it gets too high or if you experience other concerning symptoms';
+  } else if(msg.includes('tell me about yourself') || msg.includes('about you')) {
+    return 'I am a chatbot designed to assist you with your queries. What would you like to know?';
+  } else if(msg.includes('what can you do') || msg.includes('capabilities')) {
+    return 'I can help answer questions, provide information, and assist with various tasks. Just ask!';
+  } else if(msg.includes('joke') || msg.includes('funny')) {
+    return 'Why did the scarecrow win an award? Because he was outstanding in his field!';  
   } else {
     return 'Sorry, I didn\'t understand that. Can you please rephrase?';
   }
