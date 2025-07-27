@@ -1,158 +1,277 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stay updated to your health</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <section class="main">
-            <div class="header">
-                <div class="navbar">
-                    <div class="nav_container">
-                        <a href= "#about">About</a>
-                        <a href="#KnowMore">Know More</a>
-                        <a href="#ourservices">Our Services</a>
-                        <a href="#feedback">Feedback</a>
-                        <a href="#contact">Contanct Us</a>
+        <!--LOGIN-->
+        <section class="login">
+            <div class="login_page">
+                <div class="login_container_close">
+                    <button class="close-login-btn">X</button>
+                    <br>
+                    <div class="login_container">
+                        <h2>LOGIN</h2>
+                        <p>Welcome back! Please enter your details.</p>
+                        <div class="login_details">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Enter Name">
+                        </div>
+                        <div class="login_details">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Enter Password">
+                        </div>
+                        
+                        <button class="LOGIN-btn">SUBMIT</button>
+                        <a href="#sign_In">Create an account</a>
                     </div>
                 </div>
-                <div id="logo">
-                        <button id="AI">AI</button>
-                    </div>
             </div>
-            <div class="bg">
-                <div class="bgcontainer">
-                    <div class="heading">
-                        <h1>FIND A MORE</h1>
-                        <h1>BALANCE</h1> 
-                        <h1>APPROACH</h1>
-                        <h1>TO HEALTH</h1> 
+        </section>
+        <!--Sign IN-->
+        <section class="sign_In" id="sign_In">
+            <div class="login_page">
+                <div class="login_container_close">
+                    <button class="close-login-btn">X</button>
+                    <br>
+                    <div class="SIGN_IN_container">
+                        <h2>SIGN IN</h2>
+                        <p>Welcome back! Please enter your details.</p>
+                        <div class="sign_details">
+                            <input type="text" placeholder="Enter Full_Name" >
+                            <input type="email" placeholder="Enter Email">
+                            <input type="password" placeholder="Enter Password">
+                            <input type="password" placeholder="Conform Password">
+                        </div>
+                        <button class="LOGIN-btn">Login</button>
                     </div>
-                    <p id="page1P">Health is holistic</p>
-                    <button id="button1">Our Services</button>
                 </div>
             </div>
+        </section>
 
-        </section>
-        
-        <section class="about" id="about">
-            <div class="box_About">
-                <div class="boxcontainer">
-                    <div class="hbox">
-                        <h2>PERSONALISED wellness is our main offering</h2>
+        <section class="Main_body">
+            <!--FIRST PAGE-->
+            <section class="Page1">
+                <div class="header">
+                    <div class="navbar"> <!--NAVBAR-->
+                        <div class="nav_container">
+                            <a href= "#about">About</a>
+                            <a href="#ourservices">Our Services</a>
+                            <a href="#feedback">Feedback</a>
+                            <a href="#contact">Contanct Us</a>
+                        </div>
+                        <div class="nav_icon"></div>
                     </div>
-                    <div id="Pbox">
-                        <p>This page should focus on your brand's background. What's your unique story?
-                    Why should prospective clients choose to sign up with you? This is your chance
-                    to build a relationship with them, starting with your backstory, vision or philosophy.</p>
-                    </div>
-                    <button id="button2">consult now</button>
                 </div>
-                <div class="imgcontainer"></div>
-            </div>
-            
-        </section>
+                <div class="bg">
+                    <div class="bgcontainer">
+                        <div class="heading">
+                            <h1>FIND A MORE</h1>
+                            <h1>BALANCE</h1> 
+                            <h1>APPROACH</h1>
+                            <h1>TO HEALTH</h1> 
+                        </div>
+                        <p id="page1P">Health is holistic</p>
+                        <button id="button1">Our Services</button>
+                    </div>
+                </div>
                 
-        <section class="knowMore" id="KnowMore">
-            <div class="page3">
-                <div class="page3H">
-                    <h2>We provide treatments and programs that address your mind, body and spirit because health is multi-faceted.</h2>
+            </section>
+            <!--ABOUT SECTION 2ND PAGE-->
+            <section class="about" id="about">
+                <div class="box_About">
+                    <div class="boxcontainer">
+                        <div class="hbox">
+                            <h2>PERSONALISED wellness is our main offering</h2>
+                        </div>
+                        <div id="Pbox">
+                            <p>This page should focus on your brand's background. What's your unique story?
+                        Why should prospective clients choose to sign up with you? This is your chance
+                        to build a relationship with them, starting with your backstory, vision or philosophy.</p>
+                        </div>
+                        <button id="button2">Consult Now</button>
+                    </div>
+                    <div class="imgcontainer"></div>
                 </div>
-                <div class="boxpage3">
-                    <div class="page3IMG"></div>
-                    <p id="page3P">Let's tackle health from all angles.</p>
+                
+            </section>
+            <!--3RD PAGE  KNOW_MORE-->
+            <section class="knowMore" id="KnowMore">
+                <div class="page3">
+                    <div class="page3H">
+                        <h2>We provide treatments and programs that address your mind, body and spirit because health is multi-faceted.</h2>
+                    </div>
+                    <div class="boxpage3">
+                        <div class="page3IMG"></div>
+                        <p id="page3P">Let's tackle health from all angles.</p>
+                    </div>
                 </div>
+            </section>
+
+            <!-- 4TH PAGE OUR_SERVICE-->
+            <section class="ourservices" id="ourservices">
+                <div class="page4">
+                    <div class="page4H">
+                        <h2>Our Services</h2>
+                    </div>
+                    <div class="box">
+                        <div class="box1">
+                            <div class="page4_image_container">
+                                <img src="image/div1.png" alt="">
+                            </div>
+                            <p>Service Offering</p>
+                        </div>
+                        <div class="box2">
+                            <div class="page4_image_container">
+                                <img src="image/div2.png" alt="">
+                            </div>
+                            <p>Service Offering</p>
+                        </div>
+                        <div class="box3">
+                            <div class="page4_image_container">
+                                <img src="image/div3.png" alt="">
+                            </div>
+                            <p>Service Offering</p>
+                        </div>
+                        <div class="box4">
+                            <div class="page4_image_container">
+                                <img src="image/div4.png" alt="">
+                            </div>
+                            <p>Service Offering</p>
+                        </div>
+                    </div>
+                    <div class="page4p">
+                        <p>Priority service for specially-abled people</p>
+                    </div>
+                </div>
+            </section>
+            <!--5TH PAGE FEEDBACK-->
+            
+            <section class="feedback" id="feedback" >
+                <div class="page5">
+                    <div class="page5_heading">
+                        <h2>Feedback from Our Patients</h2>
+                    </div>
+                    <div class="page5_container">
+                        <div class="div1">
+                            <p>Boost your product and service's credibility by adding testimonials from your clients.</p>
+                            <br>
+                            <p style="font-weight: 600;">- Chandrakant Hazare</p>
+                        </div>
+                        <div class="div2">
+                            <p>People love recommendations so feedback from others who've tried it is invaluable.</p>
+                            <br>
+                            <p style="font-weight: 600;">- Amit Malkani</p>
+                        </div>
+                    </div>
+                    <div class="page5_con">
+                        <div class="page5box">
+                            <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback
+                            from others who've tried it is invaluable. </p>
+                            <br>
+                            <p style="font-weight: 600;">- Karan Ghai</p>
+                        </div>         
+                    </div>
+                </div>
+
+            </section>
+            <!--6TH PAGE CONTACT US-->
+            <section class="contact" id="contact">
+                <div class="page6">
+                    <div class="page_footer">
+                        <div class="pagefoot1">
+                            <h2>CONTACT US</h2>
+                            <br>
+                            <p>vitality holistic center</p>
+                        </div>
+                        <div class="pagefoot2">
+                            <p>Call: +91-123-456-7890</p>
+                            <p>Email: hello@gmail.com</p>
+                            <p>Address: 123 Wellness St, Health City, HC 12345</p>
+                            <div id="social_media_icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <button id="button3">LET'S TALK</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        <!--Consult Now Section-->
+        <section class="CONSULT">
+            <div class="consult">
+                <div class="consult_container">
+                    <h2>Consult Now</h2>
+                    <div class="consult_details">
+                        <div class="consult_headers">
+                            <h4>Name</h4>
+                            <h4>Email</h4>
+                            <h4>Phone No</h4>
+                            <h4>Age</h4>
+                            <h4>Gender</h4>
+                            <h4>Address</h4>
+                            <h4>Health Issue</h4>
+                            <h4>More additional information</h4>
+                        </div>
+                        <div class="consultForm">
+                            <input type="text" placeholder="Enter Name" required="true">
+                            <br>
+                            <input type="email" placeholder="Enter Email" required="true" >
+                            <br>
+                            <input type="text" placeholder="Enter Phone Number" required="true"> 
+                            <br>
+                            <input type="number" placeholder="Enter Age" required="true" >
+                            <br>
+                            <input type="text" placeholder="Gender" required="true">
+                            <br>
+                            <input type="text" placeholder="Enter Location" required="true">
+                            <br>
+                            <input type="text" placeholder="Enter Health Issue" required="true">
+                            <br>
+                            <textarea placeholder="Your Message......"></textarea>
+                            <br>
+                        </div>
+                    </div>
+                    <button class="consult-btn">SUBMIT</button>
+                </div>  
             </div>
         </section>
 
-        <section class="ourservices" id="ourservices">
-            <div class="page4">
-                <div class="page4H">
-                    <h2>Our Services</h2>
-                </div>
-                <div class="box">
-                    <div class="box1">
-                        <div class="page4_image_container">
-                            <img src="image/div1.png" alt="">
-                        </div>
-                        <p>Service Offering</p>
-                    </div>
-                    <div class="box2">
-                        <div class="page4_image_container">
-                            <img src="image/div2.png" alt="">
-                        </div>
-                        <p>Service Offering</p>
-                    </div>
-                    <div class="box3">
-                        <div class="page4_image_container">
-                            <img src="image/div3.png" alt="">
-                        </div>
-                        <p>Service Offering</p>
-                    </div>
-                    <div class="box4">
-                        <div class="page4_image_container">
-                            <img src="image/git config --global user.name “[firstname lastname]”div4.png" alt="">
-                        </div>
-                        <p>Service Offering</p>
-                    </div>
-                </div>
-                <div class="page4p">
-                    <p>Priority service for specially-abled people</p>
-                </div>
-            </div>
-        </section>
+        <!-- Chatbot Button -->
+        <button class="chatbot-btn" id="openChatbot" title="Chat with us">
+            <i class="fa-solid fa-comments"></i>
+        </button>
 
-        <section class="feedback" id="feedback" >
-            <div class="page5">
-                <div class="page5_heading">
-                    <h2>Feedback from Our Patients</h2>
-                </div>
-                <div class="page5_container">
-                    <div class="div1">
-                        <p>Boost your product and service's credibility by adding testimonials from your clients.</p>
-                        <br>
-                        <p style="font-weight: 600;">- Chandrakant Hazare</p>
-                    </div>
-                    <div class="div2">
-                        <p>People love recommendations so feedback from others who've tried it is invaluable.</p>
-                        <br>
-                        <p style="font-weight: 600;">- Amit Malkani</p>
-                    </div>
-                </div>
-                <div class="page5_con">
-                    <div class="page5box">
-                        <p>Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback
-                        from others who've tried it is invaluable. </p>
-                        <br>
-                        <p style="font-weight: 600;">- Karan Ghai</p>
-                    </div>         
-                </div>
+        <section id="chat-widget" class="hidden" role="region" aria-label="Chat window with support chatbot">
+            <header id="chat-header">
+            <!-- Robot icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+                <rect x="6" y="4" width="12" height="10" rx="3" ry="3" fill="currentColor" />
+                <circle cx="9" cy="10" r="1.2" fill="#f3ede7"/>
+                <circle cx="15" cy="10" r="1.2" fill="#f3ede7"/>
+                <rect x="3" y="14" width="18" height="7" rx="1.5" ry="1.5" fill="currentColor" />
+                <rect x="10" y="18" width="4" height="1.5" rx="0.75" ry="0.75" fill="#f3ede7" />
+            </svg>
+            Chat with Us
+            <button id="chat-close" aria-label="Close chat window" title="Close chat window" type="button">&times;</button>
+            </header>
+            <div id="chat-messages" aria-live="polite" aria-atomic="false" tabindex="0">
+                <div class="message bot">Hi, how can I help you?</div>
             </div>
-
+            <form id="chat-input-area" aria-label="Send message form">
+                <input id="chat-input" aria-label="Enter your message" placeholder="Enter your Message" autocomplete="off" spellcheck="false" />
+                <button type="submit" id="chat-send-btn" aria-label="Send message" title="Send message" disabled>&gt;</button>
+            </form>
         </section>
-
-        <section class="contact" id="contact">
-            <div class="page6">
-                <div class="page_footer">
-                    <div class="pagefoot1">
-                        <h2>CONTACT US</h2>
-                        <br>
-                        <p>vitality holistic center</p>
-                    </div>
-                    <div class="pagefoot2">
-                        <p>Call: +91-123-456-7890</p>
-                        <p>Email: hello@gmail.com</p>
-                        <br>
-                        <br>
-                        <button id="button3">LET'S TALK</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
+                    
         <script src="first.js"></script>
-    </body>  
+    </body>
+</html>
 
